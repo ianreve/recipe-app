@@ -32,7 +32,7 @@ export class AuthService {
 
   public login(email: string, password: string) {
     return this.http.post<AuthResponse>(
-      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCqqF08IUPev3fGvF4kmtvC4OBezpsH_MI',
+      'Firebasse API KEY',
       {
         email: email,
         password: password,
